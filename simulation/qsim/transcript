@@ -1,0 +1,66 @@
+# do oac_lab2.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module oac_lab2
+# 
+# Top level modules:
+# 	oac_lab2
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module oac_lab2_vlg_sample_tst
+# -- Compiling module oac_lab2_vlg_check_tst
+# -- Compiling module oac_lab2_vlg_vec_tst
+# 
+# Top level modules:
+# 	oac_lab2_vlg_vec_tst
+# vsim -L cycloneiv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.oac_lab2_vlg_vec_tst 
+# Loading work.oac_lab2_vlg_vec_tst
+# Loading work.oac_lab2
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading work.oac_lab2_vlg_sample_tst
+# Loading work.oac_lab2_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port addr_output[5] :: @time = 500000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000000000
+# ERROR! Vector Mismatch for output port addr_output[28] :: @time = 560000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000001010
+# ERROR! Vector Mismatch for output port addr_output[30] :: @time = 560000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000001010
+# ERROR! Vector Mismatch for output port addr_output[26] :: @time = 1600000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000110011
+# ERROR! Vector Mismatch for output port addr_output[27] :: @time = 1600000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000110011
+# ERROR! Vector Mismatch for output port addr_output[31] :: @time = 1600000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000100000000000000000000110011
+# ERROR! Vector Mismatch for output port addr_output[2] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+# ERROR! Vector Mismatch for output port addr_output[3] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+# ERROR! Vector Mismatch for output port addr_output[7] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+# ERROR! Vector Mismatch for output port addr_output[14] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+# ERROR! Vector Mismatch for output port addr_output[25] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+# ERROR! Vector Mismatch for output port addr_output[29] :: @time = 3000000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00110101000000100000000001110111
+#          12 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform.vwf.vt(707)
+#    Time: 4 us  Iteration: 0  Instance: /oac_lab2_vlg_vec_tst/tb_out
