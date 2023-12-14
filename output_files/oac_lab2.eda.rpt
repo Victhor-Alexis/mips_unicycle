@@ -1,5 +1,5 @@
 EDA Netlist Writer report for oac_lab2
-Tue Dec 12 16:57:16 2023
+Thu Dec 14 03:47:43 2023
 Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Dec 12 16:57:16 2023 ;
+; EDA Netlist Writer Status ; Successful - Thu Dec 14 03:47:43 2023 ;
 ; Revision Name             ; oac_lab2                              ;
-; Top-level Entity Name     ; oac_lab2                              ;
+; Top-level Entity Name     ; inst_memory                           ;
 ; Family                    ; Cyclone IV GX                         ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+---------------------------------------------------------------------+
-; Simulation Generated Files                                          ;
-+---------------------------------------------------------------------+
-; Generated Files                                                     ;
-+---------------------------------------------------------------------+
-; /home/victhor/Disciplinas/OAC/oac_lab2/simulation/qsim//oac_lab2.vo ;
-+---------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+; Simulation Generated Files                                               ;
++--------------------------------------------------------------------------+
+; Generated Files                                                          ;
++--------------------------------------------------------------------------+
+; /home/victhor/Disciplinas/OAC/mips_unicycle/simulation/qsim//oac_lab2.vo ;
++--------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -93,12 +93,12 @@ Info: Running Quartus II 32-bit EDA Netlist Writer
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Tue Dec 12 16:57:15 2023
-Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/victhor/Disciplinas/OAC/oac_lab2/simulation/qsim/ oac_lab2 -c oac_lab2
-Info (204019): Generated file oac_lab2.vo in folder "/home/victhor/Disciplinas/OAC/oac_lab2/simulation/qsim//" for EDA simulation tool
+    Info: Processing started: Thu Dec 14 03:47:42 2023
+Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/victhor/Disciplinas/OAC/mips_unicycle/simulation/qsim/ oac_lab2 -c oac_lab2
+Info (204019): Generated file oac_lab2.vo in folder "/home/victhor/Disciplinas/OAC/mips_unicycle/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 372 megabytes
-    Info: Processing ended: Tue Dec 12 16:57:16 2023
+    Info: Peak virtual memory: 398 megabytes
+    Info: Processing ended: Thu Dec 14 03:47:43 2023
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

@@ -1,0 +1,26 @@
+WIDTH = 32;       -- Width of each memory location in bits
+DEPTH = 1024;     -- Depth or number of memory locations
+
+ADDRESS_RADIX = HEX;  -- Radix for address values
+DATA_RADIX = HEX;     -- Radix for data values
+
+CONTENT BEGIN
+  0   : 00000001; -- Address 0 gets 1
+  1   : 00000002; -- Address 1 gets 2
+  2   : 00000006; -- Address 2 gets 3
+  3   : 00000004; -- Address 3 gets 4
+  4   : 00000005; -- Address 4 gets 5
+  5   : 00000007; -- Address 5 gets 6
+  6   : 00000002; -- Address 6 gets 7
+  7   : 00000008; -- Address 7 gets 8
+  8   : 00000009; -- Address 8 gets 9
+  9   : 0000000A; -- Address 9 gets 10
+  A   : 0000000B; -- Address A gets 11
+  B   : 0000000C; -- Address B gets 12
+  C   : 0000000D; -- Address C gets 13
+  D   : 0000000E; -- Address D gets 14
+  E   : 0000000F; -- Address E gets 15
+  F   : 00000010; -- Address F gets 16
+  -- Continue this pattern up to address 1023
+  -- You can use a script or a loop to generate this content programmatically
+END;
